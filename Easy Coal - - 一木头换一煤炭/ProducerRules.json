@@ -1,0 +1,36 @@
+﻿[
+    { // 1 wood to 1 coal
+        "ProducerName": "Charcoal Kiln",
+        "InputIdentifier": "388", // Wood
+        "InputStack": 1,
+        "MinutesUntilReady": "30",
+        "OutputIdentifier": "382", // Coal
+        "OutputStack": 1,
+        "Sounds": [ "openBox" ],
+        "DelayedSounds": [ { "fireball": 50 } ],
+        "PlacingAnimation": "CharcoalKilnSmoke",
+    },
+    { // 1 hardwood to 10 coal
+        "ProducerName": "Charcoal Kiln",
+        "InputIdentifier": "709", // Hardwood
+        "InputStack": 1,
+        "MinutesUntilReady": "60",
+        "OutputIdentifier": "382", // Coal
+        "OutputStack": 10,
+        "Sounds": [ "openBox" ],
+        "DelayedSounds": [ { "fireball": 50 } ],
+        "PlacingAnimation": "CharcoalKilnSmoke",
+    },
+    { // 1 driftwood to 5-9 coal
+        "ProducerName": "Charcoal Kiln",
+        "InputIdentifier": "169", // Driftwood
+        "InputStack": 1,
+        "MinutesUntilReady": "60",
+        "OutputIdentifier": "382", // Coal
+        "OutputStack": 5,
+        "OutputMaxStack": 9,
+        "Sounds": [ "openBox" ],
+        "DelayedSounds": [ { "fireball": 50 } ],
+        "PlacingAnimation": "CharcoalKilnSmoke",
+    }
+]

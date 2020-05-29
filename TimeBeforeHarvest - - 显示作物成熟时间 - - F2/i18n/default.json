@@ -1,0 +1,5 @@
+{
+    "crop.remaining-days": "距离成熟还有 {{daysCount}} 天！",
+    "crop.ready": "已经可以收割！",
+    "crop.not-hovered": "这不是一株作物！"
+}
