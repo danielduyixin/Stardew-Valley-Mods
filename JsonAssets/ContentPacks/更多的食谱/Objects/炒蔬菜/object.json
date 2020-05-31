@@ -1,0 +1,37 @@
+{
+  "Name": "炒蔬菜",
+  "Description": "家常便饭。",
+  "Category": "Cooking",
+  "Edibility": 20,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 120,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": "甜椒",
+        "Count": 1,
+      },
+      {
+        "Object": "胡萝卜",
+        "Count": 1,
+      },
+      {
+        "Object": 247,
+        "Count": 1,
+      },
+      {
+        "Object": "洋葱",
+        "Count": 1,
+      },
+      {
+        "Object": 281,
+        "Count": 1,
+      }
+    ],
+	"IsDefault": true,
+  
+  }
+}

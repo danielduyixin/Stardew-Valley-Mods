@@ -1,0 +1,22 @@
+{
+    "Name": "甜菜",
+    "Product": "甜菜",
+    "SeedName": "甜菜种子",
+    "SeedDescription": "春天播种。8天成熟。",
+    "Type": "Vegetable",
+
+    "Seasons": ["spring"],
+    "Phases": [ 1, 1, 2, 3, 1 ],
+    "RegrowthPhase": -1,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Colors": null,
+    "Bonus": {
+        "MinimumPerHarvest": 1,
+        "MaximumPerHarvest": 1,
+        "MaxIncreasePerFarmLevel": 5,
+        "ExtraChance": 0.0,
+    },
+    "SeedPurchasePrice": 100,
+
+}

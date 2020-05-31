@@ -1,0 +1,9 @@
+{
+  "Name": "甜菜",
+  "Description": "这块茎有高浓度的蔗糖。它对加工成糖有帮助!",
+  "Category": "Vegetable",
+  "Edibility": 8,
+  "Price": 180,
+  "IsColored": false,
+  "Recipe": null,
+}

@@ -1,0 +1,9 @@
+{
+  "Name": "姜",
+  "Description": "它是啤酒、软饮料、糖果并且许多国家用来当作菜肴的主要配料和调味剂。",
+  "Category": "Vegetable",
+  "Edibility": 8,
+  "Price": 80,
+  "IsColored": false,
+  "Recipe": null,
+}

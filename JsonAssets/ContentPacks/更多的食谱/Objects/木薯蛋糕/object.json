@@ -1,0 +1,32 @@
+{
+  "Name": "木薯蛋糕",
+  "Description": "美味又有果冻感！",
+  "Category": "Cooking",
+  "Edibility": 54,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 150,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": "木薯",
+        "Count": 1,
+      },
+      {
+        "Object": -6,
+        "Count": 1,
+      },
+      {
+        "Object": 245,
+        "Count": 1,
+      },
+      {
+        "Object": 88,
+        "Count": 1,
+      }
+    ],
+    "IsDefault": true,
+  }
+}

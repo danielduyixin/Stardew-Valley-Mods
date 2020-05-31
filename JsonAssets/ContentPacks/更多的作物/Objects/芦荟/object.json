@@ -1,0 +1,9 @@
+{
+  "Name": "芦荟",
+  "Description": "它可以用来治疗晒伤。",
+  "Category": "Vegetable",
+  "Edibility": 20,
+  "Price": 140,
+  "IsColored": false,
+  "Recipe": null,
+}

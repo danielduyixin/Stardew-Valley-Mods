@@ -1,0 +1,9 @@
+{
+  "Name": "百香果",
+  "Description": "百香果是一种浆果，浆果里面充满了许多种子。",
+  "Category": "Fruit",
+  "Edibility": 15,
+  "Price": 95,
+  "IsColored": false,
+  "Recipe": null,
+}

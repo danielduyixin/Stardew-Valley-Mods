@@ -1,0 +1,13 @@
+{
+  "Name": "红辣椒",
+  "Description": "一罐有烟熏味的椒。",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 50,
+  "IsColored": false,
+  "Recipe": null,
+  "CanPurchase": true,
+    "PurchaseFrom": "Pierre",
+    "PurchasePrice": 150,
+    "PurchaseRequirements": null,
+}

@@ -1,0 +1,26 @@
+{
+	"Name": "Tempered Galaxy Sword",
+	"Description": "The power of the cosmos courses through you.",
+	"Type": "sword",
+	"MinimumDamage": 120,
+	"MaximumDamage": 260,
+	"Knockback": 1.2,
+	"Speed": 5,
+	"Accuracy": 80,
+	"Defense": 10,
+	"MineDropVar": 0,
+	"MineDropMinimumLevel": -1,
+	"ExtraSwingArea": -1,
+	"CritChance": 0.20,
+	"CritMultiplier": 3,
+	"NameLocalization":
+	{
+		"zh": "淬火银河剑", //Chinese (Simplified)
+		/*Information goes here*/
+	},
+	"DescriptionLocalization":
+	{
+		"zh": "握紧它，能感觉到体内充盈着宇宙之力。", //Chinese (Simplified)
+		/*Information goes here*/
+	}
+}

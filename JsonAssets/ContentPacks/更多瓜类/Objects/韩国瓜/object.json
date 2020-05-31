@@ -1,0 +1,9 @@
+{
+  "Name": "韩国瓜",
+  "Description": "从韩国进口。它的白色果肉多汁而香甜。",
+  "Category": "Fruit",
+  "Edibility": 25,
+  "Price": 75,
+  "IsColored": false,
+  "Recipe": null,
+}

@@ -1,0 +1,25 @@
+{
+  "Name": "地瓜薯条",
+  "Description": "长相和普通的薯条一样，口味是甜的。",
+  "Category": "Cooking",
+  "Edibility": 26,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 175,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": "红薯",
+        "Count": 2,
+      },
+      {
+        "Object": 247,
+        "Count": 1,
+      }
+    ],
+	"IsDefault": true,
+  
+  }
+}

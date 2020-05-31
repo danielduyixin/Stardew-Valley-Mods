@@ -1,0 +1,25 @@
+{
+  "Name": "香蕉布丁",
+  "Description": "大口大口的吃！",
+  "Category": "Cooking",
+  "Edibility": 20,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 130,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": "香蕉",
+        "Count": 1,
+      },
+      {
+        "Object": -6,
+        "Count": 1,
+      }
+    ],
+   "IsDefault": true,
+
+  }
+}

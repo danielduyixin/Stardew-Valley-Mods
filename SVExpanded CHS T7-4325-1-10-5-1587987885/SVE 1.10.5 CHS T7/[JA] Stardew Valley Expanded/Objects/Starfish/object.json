@@ -1,0 +1,25 @@
+{
+	"Name": "Starfish",
+	"Description": "Referred to as sea stars because of their star-shaped appearance.",
+	"Category": "Fish",
+	"Edibility": -20,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": null,
+	"Price": 210,
+	"IsColored": false,
+	"GiftTastes":
+	{
+		/*gift tastes go here*/
+	},
+	"NameLocalization":
+	{
+		"zh": "红海星", //Chinese (Simplified)
+		/*to be added in*/
+	},
+	"DescriptionLocalization":
+	{
+		"zh": "因其外形与星星高度相似而被称为红海星。", //Chinese (Simplified)
+		/*to be added in*/
+	},
+	"DisableWithMod": "MoreFish"
+}

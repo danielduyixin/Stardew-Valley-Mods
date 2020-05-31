@@ -1,0 +1,23 @@
+{
+    "Name": "棉铃",
+    "Product": "棉铃",
+    "SeedName": "棉铃种子",
+    "SeedDescription": "夏天播种。11天成熟，之后每4天成熟一次。",
+    "Type": "Vegetable",
+
+    "Seasons": ["summer", "fall"],
+    "Phases": [ 1, 1, 2, 2, 3, 2 ],
+    "RegrowthPhase": 4,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Colors": null,
+    "Bonus": {
+        "MinimumPerHarvest": 2,
+        "MaximumPerHarvest": 2,
+        "MaxIncreasePerFarmLevel": 5,
+        "ExtraChance": 0.0,
+    },
+
+    "SeedPurchasePrice": 80,
+
+}

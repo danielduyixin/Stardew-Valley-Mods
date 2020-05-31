@@ -1,0 +1,36 @@
+{
+  "Name": "热带水果沙拉",
+  "Description": "热带水果的混合物。",
+  "Category": "Cooking",
+  "Edibility": 36,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 110,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": "香蕉",
+        "Count": 1,
+      },
+      {
+        "Object": "火龙果",
+        "Count": 1,
+      },
+      {
+        "Object": "木瓜",
+        "Count": 1,
+      },
+      {
+        "Object": "柿子",
+        "Count": 1,
+      },
+ {
+        "Object": "凤梨",
+        "Count": 1,
+      }	
+    ],
+    "IsDefault": true,
+  }
+}

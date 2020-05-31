@@ -1,0 +1,33 @@
+{
+  "Name": "爆炒欧芹",
+  "Description": "火辣的快感！",
+  "Category": "Cooking",
+  "Edibility": 40,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 200,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": "洋葱",
+        "Count": 1,
+      },
+      {
+        "Object": 260,
+        "Count": 1,
+      },
+      {
+        "Object": "欧芹",
+        "Count": 1,
+      },
+      {
+        "Object": 423,
+        "Count": 1,
+      }
+    ],
+    "IsDefault": true,
+  
+  }
+}

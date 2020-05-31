@@ -1,0 +1,24 @@
+{
+  "Name": "巧克力布丁",
+  "Description": "童年的最爱。",
+  "Category": "Cooking",
+  "Edibility": 22,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 110,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": "巧克力",
+        "Count": 1,
+      },
+      {
+        "Object": -6,
+        "Count": 1,
+      }
+    ],
+    "IsDefault": true,
+  }
+}

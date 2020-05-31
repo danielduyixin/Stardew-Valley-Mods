@@ -1,0 +1,9 @@
+{
+  "Name": "生菜",
+  "Description": "充满水。它是全世界沙拉的基础！",
+  "Category": "Vegetable",
+  "Edibility": 30,
+  "Price": 65,
+  "IsColored": false,
+  "Recipe": null,
+}

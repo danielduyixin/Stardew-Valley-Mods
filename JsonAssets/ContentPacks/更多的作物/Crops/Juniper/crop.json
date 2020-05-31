@@ -1,0 +1,23 @@
+{
+    "Name": "杜松",
+    "Product": "杜松子",
+    "SeedName": "杜松种子",
+    "SeedDescription": "冬天播种。16天成熟，之后每4天成熟一次。",
+    "Type": "Fruit",
+
+    "Seasons": ["winter"],
+    "Phases": [ 1, 2, 3, 4, 3, 3 ],
+    "RegrowthPhase": 4,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Colors": null,
+    "Bonus": {
+        "MinimumPerHarvest": 3,
+        "MaximumPerHarvest": 5,
+        "MaxIncreasePerFarmLevel": 5,
+        "ExtraChance": 0.2,
+    },
+
+    "SeedPurchasePrice": 80,
+
+}

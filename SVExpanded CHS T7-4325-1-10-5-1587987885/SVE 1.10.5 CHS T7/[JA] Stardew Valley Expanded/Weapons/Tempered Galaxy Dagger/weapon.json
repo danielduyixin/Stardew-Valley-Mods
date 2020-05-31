@@ -1,0 +1,26 @@
+{
+	"Name": "Tempered Galaxy Dagger",
+	"Description": "The power of the cosmos courses through you.",
+	"Type": "dagger",
+	"MinimumDamage": 220,
+	"MaximumDamage": 245,
+	"Knockback": 1.0,
+	"Speed": 10,
+	"Accuracy": 100,
+	"Defense": 0,
+	"MineDropVar": 0,
+	"MineDropMinimumLevel": -1,
+	"ExtraSwingArea": -1,
+	"CritChance": 0.45,
+	"CritMultiplier": 3,
+	"NameLocalization":
+	{
+		"zh": "淬火银河匕首", //Chinese (Simplified)
+		/*Information goes here*/
+	},
+	"DescriptionLocalization":
+	{
+		"zh": "握紧它，能感觉到体内充盈着宇宙之力。", //Chinese (Simplified)
+		/*Information goes here*/
+	}
+}

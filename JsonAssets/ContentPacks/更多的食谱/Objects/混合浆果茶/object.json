@@ -1,0 +1,41 @@
+{
+  "Name": "混合浆果茶",
+  "Description": "充满春天和夏天的味道,你会爱上它的!",
+  "Category": "Cooking",
+  "Edibility": 16,
+  "EdibleIsDrink": true,
+ "EdibleBuffs": {
+    "Farming": 0,
+    "Fishing": 0,
+    "Mining": 0,
+    "Luck": 0,
+	"Foraging": 0,
+	"MaxStamina": 0,
+    "MagnetRadius": 0,
+	"Speed": 0,
+	"Defense": 0,
+	"Attack": 2,
+    "Duration": 300,
+  },
+  "Price": 525,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": 296,
+        "Count": 1,
+      },
+      {
+        "Object": 481,
+        "Count": 1,
+      },
+      {
+        "Object": "茶叶",
+        "Count": 1,
+      }
+    ],
+   "IsDefault": true,
+
+  }
+}

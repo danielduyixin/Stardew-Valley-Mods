@@ -1,0 +1,23 @@
+{
+    "Name": "百香果",
+    "Product": "百香果",
+    "SeedName": "百香果种子",
+    "SeedDescription": "春天播种。17天成熟，之后每4天成熟一次。生长占据一个格子。",
+    "Type": "Fruit",
+
+    "Seasons": ["spring"],
+    "Phases": [ 1, 2, 3, 4, 2, 5 ],
+    "RegrowthPhase": 4,
+    "HarvestWithScythe": false,
+    "TrellisCrop": true,
+    "Colors": null,
+    "Bonus": {
+        "MinimumPerHarvest": 1,
+        "MaximumPerHarvest": 3,
+        "MaxIncreasePerFarmLevel": 5,
+        "ExtraChance": 0.1,
+    },
+
+    "SeedPurchasePrice": 130,
+
+}

@@ -1,0 +1,9 @@
+{
+  "Name": "杜松子",
+  "Description": "通常不会直接吃，而是发酵成杜松子酒。",
+  "Category": "Fruit",
+  "Edibility": 15,
+  "Price": 65,
+  "IsColored": false,
+  "Recipe": null,
+}

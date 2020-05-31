@@ -1,0 +1,32 @@
+{
+  "Name": "红茶",
+  "Description": "有点苦，但加糖会好一些。",
+  "Category": "Cooking",
+  "Edibility": 20,
+  "EdibleIsDrink": true,
+ "EdibleBuffs": {
+    "Farming": 0,
+    "Fishing": 0,
+    "Mining": 3,
+    "Luck": 0,
+	"Foraging": 0,
+	"MaxStamina": 0,
+    "MagnetRadius": 0,
+	"Speed": 0,
+	"Defense": 0,
+	"Attack": 0,
+    "Duration": 300,
+  },
+  "Price": 375,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": "茶叶",
+        "Count": 3,
+       }
+    ],
+    "IsDefault": true,
+  }
+}

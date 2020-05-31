@@ -1,0 +1,24 @@
+{
+	"Name": "Puppyfish",
+	"Description": "This fish wants nothing but pets and snacks.",
+	"Category": "Fish",
+	"Edibility": -100,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": null,
+	"Price": 450,
+	"IsColored": false,
+	"GiftTastes":
+	{
+		"Love": ["Willy"]
+	},
+	"NameLocalization":
+	{
+		"zh": "小狗鱼", //Chinese (Simplified)
+		/*to be added in*/
+	},
+	"DescriptionLocalization":
+	{
+		"zh": "这条鱼除了宠爱和零食外什么都不想要。", //Chinese (Simplified)
+		/*to be added in*/
+	},
+}

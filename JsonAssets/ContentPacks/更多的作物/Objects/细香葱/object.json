@@ -1,0 +1,9 @@
+{
+  "Name": "细香葱",
+  "Description": "小葱的一个小亲戚。它常用于烹饪，有一点甜味。",
+  "Category": "Vegetable",
+  "Edibility": 5,
+  "Price": 35,
+  "IsColored": false,
+  "Recipe": null,
+}

@@ -1,0 +1,9 @@
+{
+  "Name": "哈密瓜",
+  "Description": "被用于美味的甜点、冰淇淋或奶油冻。",
+  "Category": "Fruit",
+  "Edibility": 25,
+  "Price": 50,
+  "IsColored": false,
+  "Recipe": null,
+}

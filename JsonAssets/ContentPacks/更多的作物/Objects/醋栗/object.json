@@ -1,0 +1,9 @@
+{
+  "Name": "醋栗",
+  "Description": "一种大而圆的浆果，用来做美味的馅饼。",
+  "Category": "Fruit",
+  "Edibility": 15,
+  "Price": 50,
+  "IsColored": false,
+  "Recipe": null,
+}

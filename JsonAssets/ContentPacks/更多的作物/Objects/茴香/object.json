@@ -1,0 +1,9 @@
+{
+  "Name": "茴香",
+  "Description": "一种可以作为速食食物的植物!",
+  "Category": "Vegetable",
+  "Edibility": 5,
+  "Price": 35,
+  "IsColored": false,
+  "Recipe": null,
+}

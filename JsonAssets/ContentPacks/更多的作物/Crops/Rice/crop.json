@@ -1,0 +1,23 @@
+{
+    "Name": "大米",
+    "Product": "糙米",
+    "SeedName": "大米种子",
+    "SeedDescription": "不能在冬天生长。7天成熟，之后每4天成熟一次。需要用镰刀收割。",
+    "Type": "Vegetable",
+
+    "Seasons": ["spring", "summer", "fall"],
+    "Phases": [ 1, 1, 1, 1, 1, 2 ],
+    "RegrowthPhase": 4,
+    "HarvestWithScythe": true,
+    "TrellisCrop": true,
+    "Colors": null,
+    "Bonus": {
+        "MinimumPerHarvest": 3,
+        "MaximumPerHarvest": 5,
+        "MaxIncreasePerFarmLevel": 5,
+        "ExtraChance": 0.2,
+    },
+
+    "SeedPurchasePrice": 50,
+
+}

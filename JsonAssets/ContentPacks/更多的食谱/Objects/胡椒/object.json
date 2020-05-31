@@ -1,0 +1,16 @@
+{
+  "Name": "胡椒",
+  "Description": "它会让你打喷嚏。",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 50,
+  "IsColored": false,
+  "Recipe": null,
+  "CanPurchase": true,
+    "PurchaseFrom": "Pierre",
+    "PurchasePrice": 150,
+    "PurchaseRequirements": null,
+
+}

@@ -1,0 +1,25 @@
+{
+  "Name": "草莓夹心巧克力",
+  "Description": "离幸福只有一步之遥!",
+  "Category": "Cooking",
+  "Edibility": 16,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 150,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": "巧克力",
+        "Count": 1,
+      },
+      {
+        "Object": 400,
+        "Count": 1,
+      }
+    ],
+	"IsDefault": true,
+  
+  }
+}

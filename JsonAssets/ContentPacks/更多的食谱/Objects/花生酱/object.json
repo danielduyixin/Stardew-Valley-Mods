@@ -1,0 +1,25 @@
+{
+  "Name": "花生酱",
+  "Description": "经典的主食。你喜欢光滑的还是松脆的?",
+  "Category": "Cooking",
+  "Edibility": 5,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 160,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": "花生",
+        "Count": 2,
+      }
+    ],
+    "CanPurchase": true,
+    "PurchaseFrom": "Gus",
+    "PurchasePrice": 650,
+    "PurchaseRequirements": [
+      "r 0.50",
+    ]
+  }
+}

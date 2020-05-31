@@ -1,0 +1,24 @@
+{
+    "Name": "木薯",
+    "Product": "木薯",
+    "SeedName": "木薯种子",
+     "SeedDescription": "夏天播种。7天成熟。需要用镰刀收割。",
+    "Type": "Vegetable",
+
+    "Seasons": ["summer"],
+    "Phases": [ 1, 2, 2, 1, 1],
+    "RegrowthPhase": -1,
+    "HarvestWithScythe": true,
+    "TrellisCrop": false,
+    "Colors": null,
+    "Bonus": {
+        "MinimumPerHarvest": 1,
+        "MaximumPerHarvest": 1,
+        "MaxIncreasePerFarmLevel": 5,
+        "ExtraChance": 0.0,
+    },
+
+    "SeedPurchasePrice": 60,
+
+}
+

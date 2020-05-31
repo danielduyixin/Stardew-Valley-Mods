@@ -1,0 +1,24 @@
+{
+  "Name": "芹菜花生拌酱",
+  "Description": "这是一种简单的小吃，但很美味。",
+  "Category": "Cooking",
+  "Edibility": 12,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 70,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": "芹菜",
+        "Count": 1,
+      },
+      {
+        "Object": "花生酱",
+        "Count": 1,
+      }
+    ],
+    "IsDefault": true,
+  }
+}

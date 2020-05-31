@@ -1,0 +1,29 @@
+{
+  "Name": "花生酱果酱三明治",
+  "Description": "经典的三明治。",
+  "Category": "Cooking",
+  "Edibility": 16,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 70,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": "花生酱",
+        "Count": 1,
+      },
+      {
+        "Object": 216,
+        "Count": 1,
+      },
+      {
+        "Object": 344,
+        "Count": 1,
+      }
+    ],
+	"IsDefault": true,
+  
+  }
+}

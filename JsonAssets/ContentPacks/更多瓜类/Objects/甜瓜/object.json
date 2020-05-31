@@ -1,0 +1,9 @@
+{
+  "Name": "甜瓜",
+  "Description": "一种非常娇小的瓜。",
+  "Category": "Fruit",
+  "Edibility": 25,
+  "Price": 90,
+  "IsColored": false,
+  "Recipe": null,
+}

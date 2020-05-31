@@ -1,0 +1,9 @@
+{
+  "Name": "黄瓜",
+  "Description": "一份美味的、解渴的蔬菜。",
+  "Category": "Vegetable",
+  "Edibility": 20,
+  "Price": 90,
+  "IsColored": false,
+  "Recipe": null,
+}

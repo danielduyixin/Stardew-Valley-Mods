@@ -1,0 +1,9 @@
+{
+  "Name": "花生",
+  "Description": "一种略带咸味的坚果，可以搅拌成花生酱。",
+  "Category": "Vegetable",
+  "Edibility": 8,
+  "Price": 75,
+  "IsColored": false,
+  "Recipe": null,
+}

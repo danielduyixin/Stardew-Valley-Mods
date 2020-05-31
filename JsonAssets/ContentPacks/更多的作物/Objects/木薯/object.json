@@ -1,0 +1,9 @@
+{
+  "Name": "木薯",
+  "Description": "一种来自热带气候的耐寒块茎，有一种木质的味道。",
+  "Category": "Vegetable",
+  "Edibility": -300,
+  "Price": 80,
+  "IsColored": false,
+  "Recipe": null,
+}

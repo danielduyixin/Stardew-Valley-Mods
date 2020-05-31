@@ -1,0 +1,37 @@
+{
+  "Name": "森女白茶",
+  "Description": "它的味道就像是是森林仙女做的。",
+  "Category": "Cooking",
+  "Edibility": 16,
+  "EdibleIsDrink": true,
+ "EdibleBuffs": {
+    "Farming": 2,
+    "Fishing": 0,
+    "Mining": 0,
+    "Luck": 0,
+	"Foraging": 0,
+	"MaxStamina": 0,
+    "MagnetRadius": 0,
+	"Speed": 0,
+	"Defense": 0,
+	"Attack": 0,
+    "Duration": 300,
+  },
+  "Price": 245,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": 595,
+        "Count": 2,
+      },
+      {
+        "Object": "茶叶",
+        "Count": 1,
+      }
+    ],
+   "IsDefault": true,
+
+  }
+}

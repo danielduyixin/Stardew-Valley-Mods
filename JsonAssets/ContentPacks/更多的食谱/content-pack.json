@@ -1,0 +1,12 @@
+{
+   "Name": "More Food: A Collection of Recipes for JsonAssets",
+   "Author": "ParadigmNomad and MizuJakkaru",
+   "Description": "A port of Mizu's recipe sprites for JsonAssets",
+   "Version": "1.4.0",
+   "UniqueID": "More Food",
+   "UpdateKeys": [ "Nexus:1670" ],
+   "ContentPack": {
+      "ForModID": "spacechase0.JsonAssets",
+      "Subfolder": "ContentPacks/More Food"
+   }
+}

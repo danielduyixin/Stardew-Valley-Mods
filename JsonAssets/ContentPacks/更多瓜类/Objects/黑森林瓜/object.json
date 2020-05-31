@@ -1,0 +1,9 @@
+{
+  "Name": "黑森林瓜",
+  "Description": "经过几周的储藏后，味道会变得更甜。",
+  "Category": "Vegetable",
+  "Edibility": 25,
+  "Price": 45,
+  "IsColored": false,
+  "Recipe": null,
+}

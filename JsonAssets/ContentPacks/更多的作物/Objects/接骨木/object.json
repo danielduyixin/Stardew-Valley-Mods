@@ -1,0 +1,9 @@
+{
+  "Name": "接骨木",
+  "Description": "你的母亲如果是一只仓鼠，那你的父亲就会闻到了接骨木莓的气味!",
+  "Category": "Fruit",
+  "Edibility": 15,
+  "Price": 60,
+  "IsColored": false,
+  "Recipe": null,
+}

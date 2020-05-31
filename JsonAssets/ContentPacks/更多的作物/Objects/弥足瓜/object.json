@@ -1,0 +1,9 @@
+{
+  "Name": "弥足瓜",
+  "Description": "多汁又甜，这是一个美味的夏日大餐。去海滩玩乐记得带上!",
+  "Category": "Fruit",
+  "Edibility": 45,
+  "Price": 300,
+  "IsColored": false,
+  "Recipe": null,
+}

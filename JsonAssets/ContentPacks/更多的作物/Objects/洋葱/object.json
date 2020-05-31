@@ -1,0 +1,9 @@
+{
+  "Name": "洋葱",
+  "Description": "切的时候要小心!",
+  "Category": "Vegetable",
+  "Edibility": 8,
+  "Price": 115,
+  "IsColored": false,
+  "Recipe": null,
+}

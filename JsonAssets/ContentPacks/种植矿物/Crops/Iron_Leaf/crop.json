@@ -1,0 +1,23 @@
+{
+    "Name": "铁矿种子",
+    "Product": 380,
+    "SeedName": "铁矿种子",
+    "SeedDescription": "夏天播种。15天成熟。",
+    "Type": "Vegetable",
+
+    "Seasons": ["summer"],
+    "Phases": [ 1, 2, 3, 4, 5],
+    "RegrowthPhase": -1,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Colors": null,
+    "Bonus": {
+        "MinimumPerHarvest": 2,
+        "MaximumPerHarvest": 3,
+        "MaxIncreasePerFarmLevel": 5,
+        "ExtraChance": 0.2,
+    },
+
+  "SeedPurchasePrice": 100,
+
+}

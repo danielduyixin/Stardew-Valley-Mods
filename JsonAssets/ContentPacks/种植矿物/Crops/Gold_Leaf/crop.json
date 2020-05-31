@@ -1,0 +1,23 @@
+{
+    "Name": "金矿种子",
+    "Product": 384,
+    "SeedName": "金矿种子",
+    "SeedDescription": "秋天播种。20天成熟。",
+    "Type": "Vegetable",
+
+    "Seasons": ["fall"],
+    "Phases": [ 2, 4, 5, 4, 5],
+    "RegrowthPhase": -1,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Colors": null,
+    "Bonus": {
+        "MinimumPerHarvest": 2,
+        "MaximumPerHarvest": 3,
+        "MaxIncreasePerFarmLevel": 5,
+        "ExtraChance": 0.2,
+    },
+
+  "SeedPurchasePrice": 200,
+
+}

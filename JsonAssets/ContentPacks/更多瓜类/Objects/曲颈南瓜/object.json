@@ -1,0 +1,9 @@
+{
+  "Name": "曲颈南瓜",
+  "Description": "这个南瓜的形状很独特。",
+  "Category": "Vegetable",
+  "Edibility": 25,
+  "Price": 80,
+  "IsColored": false,
+  "Recipe": null,
+}

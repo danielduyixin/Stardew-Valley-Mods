@@ -1,0 +1,9 @@
+{
+  "Name": "黄金哈伯德南瓜",
+  "Description": "一个有泪滴形状和亮橘皮的南瓜。",
+  "Category": "Vegetable",
+  "Edibility": 25,
+  "Price": 70,
+  "IsColored": false,
+  "Recipe": null,
+}

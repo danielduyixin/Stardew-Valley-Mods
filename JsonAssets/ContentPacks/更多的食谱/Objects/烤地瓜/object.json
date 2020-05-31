@@ -1,0 +1,21 @@
+{
+  "Name": "烤地瓜",
+  "Description": "在天冷的时候吃一个感觉是多么的美味可口!",
+  "Category": "Cooking",
+  "Edibility": 20,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 90,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": "红薯",
+        "Count": 1,
+      }
+    ],
+   "IsDefault": true,
+
+  }
+}

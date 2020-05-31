@@ -1,0 +1,9 @@
+{
+  "Name": "夏朗德甜瓜",
+  "Description": "一种吃起来很甜的瓜，但其气味更香。",
+  "Category": "Fruit",
+  "Edibility": 25,
+  "Price": 50,
+  "IsColored": false,
+  "Recipe": null,
+}

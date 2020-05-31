@@ -1,0 +1,9 @@
+{
+  "Name": "钱币",
+  "Description": "一枚硬币的唯一价值:用于出售。",
+  "Category": "ArtisanGoods",
+  "Edibility": -300,
+  "Price": 150,
+  "IsColored": false,
+  "Recipe": null,
+}

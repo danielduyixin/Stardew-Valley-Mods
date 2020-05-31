@@ -1,0 +1,28 @@
+{
+  "Name": "无花果馅饼",
+  "Description": "简单的小吃，喜欢就多吃。",
+  "Category": "Cooking",
+  "Edibility": 12,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 75,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": "无花果",
+        "Count": 1,
+      },
+      {
+        "Object": 246,
+        "Count": 1,
+      },
+      {
+        "Object": -5,
+        "Count": 1,
+      }
+    ],
+    "IsDefault": true,
+  }
+}

@@ -1,0 +1,22 @@
+{
+    "Name": "芦荟",
+    "Product": "芦荟",
+    "SeedName": "芦荟种子",
+    "SeedDescription": "夏天播种。4天成熟。",
+    "Type": "Vegetable",
+
+    "Seasons": ["summer"],
+    "Phases": [ 1, 1, 1, 1 ],
+    "RegrowthPhase": -1,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Colors": null,
+    "Bonus": {
+        "MinimumPerHarvest": 1,
+        "MaximumPerHarvest": 1,
+        "MaxIncreasePerFarmLevel": 5,
+        "ExtraChance": 0.0,
+    },
+    "SeedPurchasePrice": 100,
+
+}

@@ -1,0 +1,22 @@
+{
+    "Name": "弥足瓜",
+    "Product": "弥足瓜",
+    "SeedName": "弥足瓜种子",
+    "SeedDescription": "秋天播种。19天成熟，之后每4天成熟一次。",
+    "Type": "Fruit",
+
+    "Seasons": ["fall"],
+    "Phases": [ 1, 2, 3, 4, 4, 5 ],
+    "RegrowthPhase": 4,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Colors": null,
+    "Bonus": {
+        "MinimumPerHarvest": 1,
+        "MaximumPerHarvest": 1,
+        "MaxIncreasePerFarmLevel": 5,
+        "ExtraChance": 0.0,
+    },
+
+    "SeedPurchasePrice": 100,
+}

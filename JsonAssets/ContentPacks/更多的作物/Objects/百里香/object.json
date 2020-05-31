@@ -1,0 +1,9 @@
+{
+  "Name": "百里香",
+  "Description": "薄荷科的一种芳香草本植物，有小的圆形叶子和粉红色的花。",
+  "Category": "Vegetable",
+  "Edibility": 5,
+  "Price": 55,
+  "IsColored": false,
+  "Recipe": null,
+}

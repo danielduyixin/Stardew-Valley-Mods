@@ -1,0 +1,9 @@
+{
+  "Name": "小青南瓜",
+  "Description": "通常被误认为葫芦。",
+  "Category": "Vegetable",
+  "Edibility": 35,
+  "Price": 25,
+  "IsColored": false,
+  "Recipe": null,
+}

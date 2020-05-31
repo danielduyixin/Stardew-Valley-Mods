@@ -1,0 +1,32 @@
+{
+  "Name": "木薯粉汤",
+  "Description": "一种烤过的木薯加上一些配料。",
+  "Category": "Cooking",
+  "Edibility": 34,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 130,
+  "IsColored": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": "木薯",
+        "Count": 2,
+      },
+      {
+        "Object": 248,
+        "Count": 1,
+      },
+      {
+        "Object": "橄榄",
+        "Count": 1,
+      },
+      {
+        "Object": "洋葱",
+        "Count": 1,
+      }
+    ],
+    "IsDefault": true,
+  }
+}
