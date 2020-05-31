@@ -15,7 +15,7 @@
   "ambientVolumeLevel": 0.75,
   "footstepVolumeLevel": 0.75,
   "dialogueTyping": true,
-  "windowedBorderlessFullscreen": true,
+  "windowedBorderlessFullscreen": false,
   "preferredResolutionX": 1920,
   "preferredResolutionY": 1080,
   "fullscreen": false,
