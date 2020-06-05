@@ -1,4 +1,4 @@
 {
-  "InaccuratePredictions": false,
-  "BypassFriendships": false
+  "InaccuratePredictions": true,
+  "BypassFriendships": true
 }

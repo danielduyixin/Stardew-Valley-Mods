@@ -5,13 +5,13 @@
   "GrowCropsKey": "NumPad2",
   "GrowRadius": 1,
   "DefaultTab": "PlayerAndTools",
-  "MoveSpeed": 10,
+  "MoveSpeed": 4,
   "InfiniteHealth": false,
   "InfiniteStamina": false,
   "InstantCooldowns": true,
   "MaxDailyLuck": false,
   "OneHitKill": false,
-  "OneHitBreak": true,
+  "OneHitBreak": false,
   "InfiniteWateringCan": false,
   "HarvestScythe": true,
   "InstantBite": false,
@@ -53,6 +53,6 @@
   "DurableFences": false,
   "InstantBuild": false,
   "AutoFeed": false,
-  "AutoWater": true,
+  "AutoWater": false,
   "InfiniteHay": false
 }
