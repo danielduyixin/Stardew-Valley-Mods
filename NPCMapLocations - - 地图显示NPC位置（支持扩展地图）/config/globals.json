@@ -1,0 +1,14 @@
+{
+  "UseSeasonalMaps": true,
+  "MinimapBlacklist": [],
+  "MenuKey": "Tab",
+  "TooltipKey": "Space",
+  "MinimapDragKey": "LeftControl",
+  "MinimapToggleKey": "OemPipe",
+  "ShowFarmBuildings": true,
+  "ShowChildren": false,
+  "ShowHorse": true,
+  "CustomNpcMarkerOffsets": {},
+  "NpcBlackList": [],
+  "DEBUG_MODE": false
+}

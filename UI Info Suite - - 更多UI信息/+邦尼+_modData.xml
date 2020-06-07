@@ -5,7 +5,7 @@
   <option name="ShowExperienceBar">True</option>
   <option name="AllowExperienceBarToFadeOut">True</option>
   <option name="ShowExperienceGain">True</option>
-  <option name="ShowLocationOfTownsPeople">True</option>
+  <option name="ShowLocationOfTownsPeople">False</option>
   <option name="ShowBirthdayIcon">True</option>
   <option name="ShowHeartFills">True</option>
   <option name="ShowAnimalsNeedPets">True</option>
