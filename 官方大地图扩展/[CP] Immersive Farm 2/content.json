@@ -1,0 +1,339 @@
+{
+  "Format": "1.13",
+
+  "ConfigSchema": {
+    "UseIF2Greenhouse": {
+      "AllowValues": "true, false",
+      "Default": true
+    },
+    "PlaceYourOwnRedShed_RequiresTMXPack": {
+      "AllowValues": "true, false",
+      "Default": false
+    },
+    "BuildableRedShedIsFree": {
+      "AllowValues": "true, false",
+      "Default": true
+    },
+    "AddSouthBusStopPath": {
+      "AllowValues": "true, false",
+      "Default": true
+    },
+    "AddSecretWoodsShortcut":{
+      "AllowValues": "true, false",
+      "Default": true
+    },
+    "CheckEveryTileOfCustomGreenhouseForDoorWarps": {
+      "AllowValues": "true, false",
+      "Default": false
+    }
+  },
+  "DynamicTokens": [
+    {
+      "Name": "recolor",
+      "Value": "default",
+    },
+    {
+      "Name": "recolor",
+      "Value": "eemie",
+      "When": {
+      "HasMod:minervamaga.CP.eemieMapRecolour": true,
+      "HasFile:assets/eemie/{{season}}_extras.png": true
+      }
+    },
+    {
+      "Name": "recolor",
+      "Value": "starblue",
+      "When": {
+      "HasMod:Lita.StarblueValley": true,
+      "HasFile:assets/starblue/{{season}}_extras.png": true
+      }
+    },
+    {
+      "Name": "MoveGreenhouseEntry",
+      "Value": false,
+    },
+    {
+      "Name": "MoveGreenhouseEntry",
+      "Value": true,
+      "When":{
+        "FarmType": "Standard",
+        "HasMod:mabelsyrup.farmhouse": false,
+        "UseIF2Greenhouse": true,
+      }
+    },
+    /*patching the FHR door does not work as intended, so despite this token,
+    you'll still get dumped in the middle of the IF2 greenhouse if FHR is installed
+    oopsie*/
+    {
+      "Name": "MoveGreenhouseEntry",
+      "Value": true,
+      "When":{
+        "FarmType": "Standard",
+        "HasMod:mabelsyrup.farmhouse": true,
+        "UseIF2Greenhouse": true,
+        //this checks the garden pot event instead of the pantry flag for multiplayer compatibility
+        "HasSeenEvent": "900553"
+      }
+    },
+  ],
+
+  "Changes": [ 
+
+    //tilesheets need to be explicitly loaded in order to intercept them later
+    {
+      "LogName": "Default Tilesheet Load",
+      "Action": "Load",
+      "Target": "Maps/spring_extras",
+      "FromFile": "assets/default/spring_extras.png"
+    },
+
+    {
+      "LogName": "Default Tilesheet Load",
+      "Action": "Load",
+      "Target": "Maps/summer_extras",
+      "FromFile": "assets/default/summer_extras.png"
+    }, 
+
+    {
+      "LogName": "Default Tilesheet Load",
+      "Action": "Load",
+      "Target": "Maps/fall_extras",
+      "FromFile": "assets/default/fall_extras.png"
+    },
+
+    {
+      "LogName": "Default Tilesheet Load",
+      "Action": "Load",
+      "Target": "Maps/winter_extras",
+      "FromFile": "assets/default/winter_extras.png"
+    },
+
+//we can then overlay the loaded tilesheets with the available recolor
+    {
+      "LogName": "Recolored Tilesheets",
+      "Action": "EditImage",
+      "Target": "Maps/{{season}}_extras",
+      "FromFile": "assets/{{recolor}}/{{season}}_extras.png",
+      "When": {"recolor": "starblue,eemie"}
+    },
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/map",
+      "FromFile": "assets/map.png",
+      //There's no point in using NPC Map Locations if you aren't using its more accurate map
+      "When": {"HasMod:Bouhm.NPCMapLocations": false}
+    },
+    {
+      "LogName": "Recolored Map",
+      "Action": "EditImage",
+      "PatchMode":"Overlay",
+      "Target": "LooseSprites/Map",
+      "FromFile": "assets/{{recolor}}/map.png",
+      "When": {"recolor": "eemie"}
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Buildings/Houses",
+      "FromFile": "assets/InvisibleGreenhouse.png",
+      "ToArea": { "X": 160, "Y": 0,"Width": 112, "Height": 432 },
+      "When": {
+        "FarmType": "Standard",
+        "HasMod:mabelsyrup.farmhouse": false
+      }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "LooseSprites/font_bold",
+      "FromFile": "assets/font_bold.png",
+      "ToArea": { "X": 88, "Y": 80,"Width": 8, "Height": 16 },
+      "When": {"FarmType": "Standard"}
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/Farm",
+      "FromFile": "assets/Farm.tbin"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/FarmCave",
+      "FromFile": "assets/FarmCave.tbin",
+      "When": {
+        "FarmType": "Standard"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/Greenhouse",
+      "FromFile": "assets/Greenhouse.tbin",
+      "When": {
+        "FarmType": "Standard",
+        "UseIF2Greenhouse": true
+      }
+    },
+    {
+      "LogName": "Merge Custom Greenhouse Exterior if no FHR",
+      "Action": "EditMap",
+      "Target": "Maps/Farm",
+      "FromFile": "assets/IF2GreenhouseMerge.tbin",
+      "ToArea": { "X": 33, "Y": 30, "Width": 7, "Height": 10 },
+      "When":{
+        "HasMod:mabelsyrup.farmhouse": false
+      }
+    },
+    {
+      "LogName": "Edit Greenhouse Door if no FHR, but seriously just use fhr",
+      "Action": "EditMap",
+      "Target": "Maps/Farm",
+      "FromFile": "assets/IF2GreenhouseDoor.tbin",
+      "ToArea": { "X": 36, "Y": 39, "Width": 1, "Height": 1 },
+      "When":{
+        "MoveGreenhouseEntry": true,
+      }
+    },
+    {
+      "LogName": "Tell PyTK The Greenhouse is Custom",
+      "Action": "EditMap",
+      "Target": "Maps/Farm",
+      "MapProperties": {"IF2GreenhouseIsCustom":"T"},
+      "When":{
+        "UseIF2Greenhouse": false
+      }
+    },
+    {
+      "LogName": "Merge RedShed if you aren't using buildable version",
+      "Action": "EditMap",
+      "Target": "Maps/Farm",
+      "FromFile": "assets/RedShedMerge.tbin",
+      "ToArea": { "X": 140, "Y": 27, "Width": 10, "Height": 8 },
+      "MapProperties": {"RedShedVersion":"integrated"},
+      "When":{
+        "PlaceYourOwnRedShed_RequiresTMXPack": false
+      }
+    },
+    {
+      "LogName": "Edit RedShedDoor",
+      "Action": "EditMap",
+      "Target": "Maps/Farm",
+      "FromFile": "assets/RedShedDoor.tbin",
+      "ToArea": { "X": 144, "Y": 33, "Width": 1, "Height": 1 },
+      "MapProperties": {"RedShedVersion":"redirect"},
+      "When":{
+        "UseIF2Greenhouse": false,
+        "PlaceYourOwnRedShed_RequiresTMXPack": false
+      }
+    },
+    {
+      "LogName": "Red Shed Is Free",
+      "Action": "EditMap",
+      "Target": "Maps/Farm",
+      "MapProperties": {"RedShedPrice":"free"},
+      "When":{
+        "BuildableRedShedIsFree": true
+      }
+    },
+    {
+      "LogName": "Initiate XTreme Greenhouse Compat Check",
+      "Action": "EditMap",
+      "Target": "Maps/Farm",
+      "MapProperties": {"IF2TryExtraHard":"T"},
+      "When":{
+        "CheckEveryTileOfCustomGreenhouseForDoorWarps": true,
+        "UseIF2Greenhouse": false
+      }
+    },
+    {
+      "LogName": "Add the additional path to farm",
+      "Action": "EditMap",
+      "Target": "Maps/BusStop",
+      "FromFile": "assets/BusStop.tbin",
+      "ToArea": { "X": 0, "Y": 20, "Width": 35, "Height": 10 },
+      "MapProperties": {"IF2PathMe": "T"},
+      "When":{
+        "FarmType": "Standard",
+        "AddSouthBusStopPath": true
+      }
+    },
+    {
+      "LogName": "Path from farm to Bus",
+      "Action": "EditMap",
+      "Target": "Maps/Farm",
+      "FromFile": "assets/IF2FarmBusPath.tbin",
+      "ToArea": { "X": 125, "Y": 19, "Width": 8, "Height": 25 },
+      "When":{
+        "AddSouthBusStopPath": true
+      }
+    },
+    {
+      "LogName": "Edit Bus Warps if no PyTK",
+      "Action": "EditMap",
+      "Target": "Maps/BusStop",
+      "MapProperties": {"Warp": "35 22 Town 0 54 35 23 Town 0 54 35 24 Town 0 54 35 25 Town 0 54 -1 6 Backwoods 49 30 -1 7 Backwoods 49 30 -1 8 Backwoods 49 30 -1 9 Backwoods 49 30 -1 22 Farm 79 18 -1 23 Farm 79 18 -1 24 Farm 79 18 -1 25 Farm 79 18 13 30 Farm 128 29 14 30 Farm 128 29 15 30 Farm 128 29"},
+      "When":{
+        "FarmType": "Standard",
+        "HasMod:Platonymous.Toolkit" : false
+      }
+    },
+
+
+    {
+      "LogName": "Edit Forest Warps if no PyTK",
+      "Action": "EditMap",
+      "Target": "Maps/Forest",
+      "MapProperties": {"Warp": "120 25 Town 0 90 120 26 Town 0 90 120 24 Town 0 90 120 27 Town 0 90 -1 6 Woods 59 15 -1 7 Woods 59 15 67 -1 Farm 56 69 68 -1 Farm 56 69 69 -1 Farm 56 69 70 -1 Farm 56 69 71 -1 Farm 56 69 72 -1 Farm 56 69"},
+      "When":{
+        "FarmType": "Standard",
+        "HasMod:Platonymous.Toolkit" : false
+      }
+    },
+    {
+      "LogName": "Add Secret Woods Shortcut",
+      "Action": "EditMap",
+      "Target": "Maps/Woods",
+      "FromFile": "assets/Woods.tbin",
+      "ToArea": { "X": 27, "Y": 2, "Width": 3, "Height": 2 },
+      "MapProperties": {"IF2Shortcut": "T"},
+      "When":{
+        "FarmType": "Standard",
+        "AddSecretWoodsShortcut": true
+      }
+    },
+    {
+      "LogName": "Unblock woods shortcut",
+      "Action": "EditMap",
+      "Target": "Maps/Farm",
+      "FromFile": "assets/IF2WoodsShortcut.tbin",
+      "ToArea": { "X": 18, "Y": 143, "Width": 7, "Height": 6 },
+      "When":{
+        "AddSecretWoodsShortcut": true
+      }
+    },
+    {
+      "LogName": "Edit Woods Warps if no PyTK",
+      "Action": "EditMap",
+      "Target": "Maps/Woods",
+      "MapProperties": {"Warp": "60 15 Forest 0 7 60 16 Forest 0 7 27 2 Farm 20 147 28 2 Farm 21 147 29 2 Farm 22 147"},
+      "When":{
+        "FarmType": "Standard",
+        "AddSecretWoodsShortcut": true,
+        "HasMod:Platonymous.Toolkit": false
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/StringsFromMaps",
+      "Entries": {
+        "BusStop.1": "@ { Farm^` Bus Stop^> Pelican Town",
+        "FarmMod.1": "` Mountain",
+        "FarmMod.2": "@ Hills^@ Woods",
+        "FarmMod.3": "{ Forest^@ Spa^> Quarry",
+        "FarmMod.4": "{ Woods^> Farm",
+        "FarmMod.5": "` Bus Stop",
+        "FarmMod.6": "Yuck!",
+        "FarmCave.1": "Shrine",
+        "FarmCave.2": "East Hill",
+        "FarmCave.3": "Western Hills"
+       },
+       "When": {"FarmType": "Standard"}
+    }
+  ]
+}

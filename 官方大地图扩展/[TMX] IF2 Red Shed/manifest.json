@@ -1,0 +1,19 @@
+﻿{
+    "Name": "Immersive Farm 2 Red Shed",
+    "Author": "zander by way of mouse",
+    "Version": "2.0.2-unofficial.7-mouse",
+    "Description": "Adds the red shed's interior as a new location, also adds a buildable version",
+    "UniqueID": "mouse.returnoftheredshed",
+    "MinimumApiVersion": "3.0.1",
+    "ContentPackFor":
+    {
+        "UniqueID": "Platonymous.TMXLoader",
+        "MinimumVersion": "1.3.4"
+    },
+    "Dependencies": [
+        {
+            "UniqueID": "zander.immersivefarm2",
+            "IsRequired": true
+        },
+    ]
+}

@@ -12,7 +12,7 @@
   "MaxDailyLuck": false,
   "OneHitKill": false,
   "OneHitBreak": false,
-  "InfiniteWateringCan": false,
+  "InfiniteWateringCan": true,
   "HarvestScythe": true,
   "InstantBite": false,
   "InstantCatch": false,
