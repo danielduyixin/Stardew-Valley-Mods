@@ -1,8 +1,0 @@
-{
-  "UseIF2Greenhouse": "true",
-  "PlaceYourOwnRedShed_RequiresTMXPack": "false",
-  "BuildableRedShedIsFree": "true",
-  "AddSouthBusStopPath": "true",
-  "AddSecretWoodsShortcut": "true",
-  "CheckEveryTileOfCustomGreenhouseForDoorWarps": "false"
-}

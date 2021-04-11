@@ -1,9 +1,0 @@
-{
-  "Name": "红豆",
-  "Description": "把它捣碎成糊状！",
-  "Category": "Vegetable",
-  "Edibility": 22,
-  "Price": 90,
-  "IsColored": false,
-  "Recipe": null,
-}

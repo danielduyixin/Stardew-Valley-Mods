@@ -1,0 +1,42 @@
+{	 
+  "addMaps": [
+    {
+      "Name": "RedShed",
+      "File": "assets/RedShedInterior.tbin"
+    }
+  ],
+  "Buildables": [
+    {
+      "ID":"zander.redshedinteriorfree",
+      "Name": "RedShed",
+      "File": "assets/BuildableRedShed.tbin",
+      "indoorsFile": "assets/BuildableRedShedInterior.tbin",
+      "exitTile":[4,7],
+      "IconFile": "assets/RedShedIcon.png",
+      "RemoveEmpty":false,
+      "Price":0,
+      "conditions": "LC Game1.currentLocation.Name == 'Farm' and Luau.getMapProperty('Farm','RedShedVersion') == 'buildable' and Luau.getMapProperty('Farm','RedShedPrice') == 'free'",
+      "Set": "IF2",
+      "tags": ["IsUnique"]
+    },
+    {
+      "ID":"zander.redshedinterior",
+      "Name": "RedShed",
+      "File": "assets/BuildableRedShed.tbin",
+      "indoorsFile": "assets/BuildableRedShedInterior.tbin",
+      "exitTile":[4,7],
+      "IconFile": "assets/RedShedIcon.png",
+      "RemoveEmpty":false,
+      "Price":10000,
+      "buildItems":[
+        {
+          "name":"Wood",
+          "stack":200
+        }
+      ],
+      "conditions": "LC Game1.currentLocation.Name == 'Farm' and Luau.getMapProperty('Farm','RedShedVersion') == 'buildable' and Luau.getMapProperty('Farm','RedShedPrice') ~= 'free'",
+      "Set": "IF2",
+      "tags": ["IsUnique"]
+    }
+  ],
+}

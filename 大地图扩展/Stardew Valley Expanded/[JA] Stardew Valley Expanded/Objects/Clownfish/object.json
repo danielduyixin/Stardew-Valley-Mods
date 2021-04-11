@@ -1,0 +1,23 @@
+{
+	"Name": "Clownfish",
+	"Description": "Lives in sea anemones for protection.",
+	"Category": "Fish",
+	"Edibility": 20,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": null,
+	"Price": 90,
+	"IsColored": false,
+	"GiftTastes":
+	{
+		/*gift tastes go here*/
+	},
+	"NameLocalization":
+	{
+		"zh": "小丑鱼",
+	},
+	"DescriptionLocalization":
+	{
+		"zh": "生活在海葵中以求保护。",
+	},
+	"DisableWithMod": "MoreFish"
+}

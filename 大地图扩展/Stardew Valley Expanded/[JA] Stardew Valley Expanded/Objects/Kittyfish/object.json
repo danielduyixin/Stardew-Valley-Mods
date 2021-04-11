@@ -1,0 +1,24 @@
+{
+	"Name": "Kittyfish",
+	"Description": "A magical fish summoned by Camilla. It likes scratches under the chin.",
+	"Category": "Fish",
+	"Edibility": 40,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": null,
+	"Price": 280,
+	"IsColored": false,
+	"GiftTastes":
+	{
+		"Love": ["Morgan"],
+		"Like": [ "Wizard", "Abigail"],
+		"Dislike": ["Willy"]
+	},
+	"NameLocalization":
+    {
+        "zh": "小猫鱼",   
+    },
+    "DescriptionLocalization":
+    {
+        "zh": "一条由卡米拉召唤的神奇的鱼。它喜欢下巴上的抓痕。",
+	},
+}

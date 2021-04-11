@@ -1,9 +1,0 @@
-{
-  "Name": "罗勒",
-  "Description": "这种药草是甜的，有点薄荷味，略带胡椒味。",
-  "Category": "Vegetable",
-  "Edibility": 5,
-  "Price": 35,
-  "IsColored": false,
-  "Recipe": null,
-}

@@ -1,8 +1,9 @@
 {
   "ActivationKey": "LeftControl",
-  "ToggleKey": "F1",
+  "ToggleKey": "F5",
   "HoeSelect": true,
   "IfNoneToolChooseWeapon": true,
   "RideHorseCursor": true,
-  "PickaxeOverWareringCan": true
+  "PickaxeOverWareringCan": true,
+  "CursorOverToolHitLocation": false
 }

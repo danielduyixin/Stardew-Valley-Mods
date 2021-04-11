@@ -1,9 +1,0 @@
-{
-  "Name": "凤梨",
-  "Description": "甜蜜的味道，富含糖份。它用途广泛，可用于甜点、沙拉和饮料!",
-  "Category": "Fruit",
-  "Edibility": 18,
-  "Price": 245,
-  "IsColored": false,
-  "Recipe": null,
-}

@@ -1,9 +1,0 @@
-{
-  "Name": "西兰花",
-  "Description": "这种蔬菜的软顶是多叶和蓬松的。",
-  "Category": "Vegetable",
-  "Edibility": 15,
-  "Price": 120,
-  "IsColored": false,
-  "Recipe": null,
-}

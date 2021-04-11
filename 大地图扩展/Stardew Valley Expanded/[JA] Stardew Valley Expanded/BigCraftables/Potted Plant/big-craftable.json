@@ -1,0 +1,16 @@
+{
+  "Name": "Potted Plant",
+  "Price": 400,
+  "ProvidesLight": false,
+  "Description": "A decorative piece for your farm.",
+  "ProvidesLight": false,
+  "CanPurchase": false,
+  "NameLocalization":
+  {
+        "zh": "盆栽植物",
+  },
+  "DescriptionLocalization":
+  {
+        "zh": "装饰你的农场。",
+  }
+}

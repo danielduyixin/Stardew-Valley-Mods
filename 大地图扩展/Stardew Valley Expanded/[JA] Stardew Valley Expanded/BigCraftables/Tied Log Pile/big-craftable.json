@@ -1,0 +1,16 @@
+{
+  "Name": "Tied Log Pile",
+  "Price": 300,
+  "ProvidesLight": false,
+  "Description": "A decorative piece for your farm.",
+  "ProvidesLight": false,
+  "CanPurchase": false,
+  "NameLocalization":
+  {
+        "zh": "捆起来的一堆原木",
+  },
+  "DescriptionLocalization":
+  {
+        "zh": "装饰你的农场。",
+  }
+}

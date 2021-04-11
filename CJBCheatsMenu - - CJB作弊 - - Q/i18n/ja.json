@@ -1,4 +1,4 @@
-{
+﻿{
     /*********
     ** Main translations
     *********/
@@ -38,10 +38,12 @@
     "tools.harvest-with-scythe": "カマで収穫",
 
     // money
-    "money.title": "お金",
-    "money.add-amount": "増やす {{amount}}g",
-    "casino-coins.title": "カジノのコイン",
-    "casino-coins.add-amount": "増やす {{amount}}",
+    "add.money": "お金",
+    "add.casino-coins": "カジノのコイン",
+    "add.golden-walnuts": "金のクルミ",
+    "add.qi-gems": "Qiジェム",
+    "add.amount-gold": "増やす {{amount}}g",
+    "add.amount-other": "増やす {{amount}}",
 
 
     /*********
@@ -65,32 +67,8 @@
 
     // fast machines
     "fast-machines.title": "作成時間の短縮",
-    "fast-machines.bee-house": "ハチの巣箱",
-    "fast-machines.cask": "熟成ダル",
-    "fast-machines.charcoal-kiln": "炭焼き窯",
-    "fast-machines.cheese-press": "チーズプレス",
-    "fast-machines.crab-pot": "カニかご",
-    "fast-machines.crystalarium": "結晶コピーマシン",
     "fast-machines.fruit-trees": "果樹",
-    "fast-machines.furnace": "溶鉱炉",
-    "fast-machines.incubator": "ふ卵器（午前中に準備完了）", // TODO review (auto-translated)
-    "fast-machines.keg": "醸造ダル",
-    "fast-machines.lightning-rod": "ひらい針",
-    "fast-machines.loom": "織り機",
-    "fast-machines.mayonnaise-machine": "マヨネーズマシン",
-    "fast-machines.mushroom-box": "マッシュルームボックス",
-    "fast-machines.oil-maker": "オイルメーカー",
-    "fast-machines.preserves-jar": "保存ジャー",
-    "fast-machines.recycling-machine": "リサイクルマシン",
-    "fast-machines.seed-maker": "タネ製造マシン",
-    "fast-machines.slime-egg-press": " スライムエッグプレス",
-    "fast-machines.slime-incubator": "スライム用ふ卵器",
-    "fast-machines.soda-machine": "コーラマシン",
-    "fast-machines.statue-of-endless-fortune": "おわりなき幸運の像",
-    "fast-machines.statue-of-perfection": "完全無欠の像",
-    "fast-machines.tapper": "樹液採取器",
-    "fast-machines.wood-chipper": "ウッドチッパー",
-    "fast-machines.worm-bin": "ミミズ飼育器",
+    "fast-machines.ready-in-the-morning": "{{machineName}}（午前中に準備完了）", // TODO review (auto-translated)
 
 
     /*********
@@ -197,6 +175,15 @@
     "warp-section.beach": "ビーチ",
     "warp.tide-pools": "タイドプール",
     "warp.willy-shop": "釣具店",
+
+    // island
+    // TODO
+    "warp-section.island": "Ginger Island",
+    "warp.forge": "Forge",
+    "warp.island-farm": "Island Farm",
+    "warp.dwarf-shop": "Volcano Dwarf Shop",
+    "warp.field-office": "Field Office",
+    "warp.leo-house": "Leo's House",
 
     // desert
     "warp-section.desert": "Desert", // TODO

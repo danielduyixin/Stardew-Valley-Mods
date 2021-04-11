@@ -1,9 +1,0 @@
-{
-  "Name": "糙米",
-  "Description": "做饭用的米。",
-  "Category": "Vegetable",
-  "Edibility": -300,
-  "Price": 20,
-  "IsColored": false,
-  "Recipe": null,
-}

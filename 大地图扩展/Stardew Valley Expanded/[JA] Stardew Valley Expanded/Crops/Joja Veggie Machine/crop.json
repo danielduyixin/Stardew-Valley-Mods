@@ -1,0 +1,31 @@
+{
+	"Name": "Joja Veggie Machine",
+	"Product": "Joja Veggie",
+	"SeedName": "Joja Veggie Seeds",
+	"SeedDescription": "Plant these in the spring, summer or fall. Takes 13 days to mature. The platform is impassable. A light turns red when ready to harvest.",
+	"Type": "Vegetable",
+	"CropType": "Normal",
+	"Seasons": ["spring", "summer", "fall"],
+	"Phases": [2,3,4,4],
+	"RegrowthPhase":-1,
+	"HarvestWithScythe": false,
+	"TrellisCrop": true,
+	"Bonus": {
+		"MinimumPerHarvest": 1,
+		"MaximumPerHarvest": 1,
+		"MaxIncreasePerFarmLevel": 2,
+		"ExtraChance": 0.1,
+	},
+	"SeedPurchasePrice": 200,
+	"SeedPurchaseFrom": "Zoey",
+	"SeedPurchaseRequirements": ["e 5553210"],
+	//翻译
+	    "SeedNameLocalization":
+    {
+        "zh": "乔家蔬菜种子",
+    },
+    "SeedDescriptionLocalization":
+    {
+        "zh": "在夏天或秋天种植。13天成熟。成熟时感应灯变红。",
+    },
+}

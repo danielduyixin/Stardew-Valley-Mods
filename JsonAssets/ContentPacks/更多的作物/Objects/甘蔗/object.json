@@ -1,9 +1,0 @@
-{
-  "Name": "甘蔗",
-  "Description": "一根甘蔗。它可以加工成糖。",
-  "Category": "Vegetable",
-  "Edibility": -300,
-  "Price": 230,
-  "IsColored": false,
-  "Recipe": null,
-}

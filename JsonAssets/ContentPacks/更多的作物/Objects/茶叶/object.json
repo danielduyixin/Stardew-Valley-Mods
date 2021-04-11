@@ -1,9 +1,0 @@
-{
-  "Name": "茶叶",
-  "Description": "从茶树上取下来的叶子。它可以浸泡在水里，可以制作各种口味的茶。",
-  "Category": "Vegetable",
-  "Edibility": -300,
-  "Price": 45,
-  "IsColored": false,
-  "Recipe": null,
-}

@@ -1,20 +1,31 @@
-{
-    "title": "CJB 아이템 생성기",
+﻿{
+    /*********
+    ** Sort button
+    *********/
+    "sort.by-name": "이름",
+    "sort.by-type": "종류",
+    "sort.by-id": "ID",
 
-    "labels.sort-by-name": "정렬 기준: 이름",
-    "labels.sort-by-category": "정렬 기준: 종류",
-    "labels.sort-by-id": "정렬 기준: ID",
-    "labels.quality": "품질",
 
-    "tabs.all": "전체",
-    "tabs.equipment": "도구 & 장비",
-    "tabs.crops": "씨앗 & 작물/",
-    "tabs.fishing": "물고기 & 미끼 & 쓰레기",
-    "tabs.forage": "채집 & 과일",
-    "tabs.artifacts-and-minerals": "유물 & 광물",
-    "tabs.resources-and-crafting": "자원/재료 & 제작/설치",
-    "tabs.artisan-and-cooking": "장인 가공품 & 요리",
-    "tabs.animal-and-monster": "동물 & 몬스터",
-    "tabs.decorating": "가구 & 장식품",
-    "tabs.miscellaneous": "기타 & 퀘스트"
+    /*********
+    ** Category dropdown
+    *********/
+    "filter.all": "전체",
+    "filter.artisan-and-cooking": "기타 : 장인 제작품 & 요리",
+    "filter.crafting.products": "제작 : 기계 & 제작품",
+    "filter.crafting.resources": "제작 : 자원",
+    "filter.decor.furniture": "장식 : 가구",
+    "filter.decor.other": "장식 : 벽지 & 바닥",
+    "filter.equipment-boots": "장비 : 신발",
+    "filter.equipment-clothes": "장비 : 의류",
+    "filter.equipment-hats": "장비 : 모자",
+    "filter.equipment-rings": "장비 : 반지",
+    "filter.equipment-tools": "장비 : 도구 & 미끼 & 비료",
+    "filter.equipment-weapons": "장비 : 무기",
+    "filter.farm-animal-drops": "농장 : 동물 전리품",
+    "filter.farm-crops": "농장 : 작물",
+    "filter.farm-seeds": "농장 : 씨앗",
+    "filter.fish": "기타 : 물고기 & 어란",
+    "filter.minerals-and-artifacts": "기타 : 광물 & 유물",
+    "filter.miscellaneous": "기타 & 퀘스트"
 }

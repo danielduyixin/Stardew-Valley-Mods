@@ -1,9 +1,0 @@
-{
-  "Name": "红薯",
-  "Description": "马铃薯的表亲。烤的时候很甜、有泥土地的味道。",
-  "Category": "Vegetable",
-  "Edibility": 10,
-  "Price": 120,
-  "IsColored": false,
-  "Recipe": null,
-}

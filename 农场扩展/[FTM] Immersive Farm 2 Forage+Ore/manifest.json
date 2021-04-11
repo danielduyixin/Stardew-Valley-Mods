@@ -1,0 +1,12 @@
+{
+  "Name": "Immersive Farm 2 Unofficial Update FTM Pack",
+  "Author": "zander by way of mouse",
+  "Version": "2.0.2-unofficial.12-mouse",
+  "Description": "Generic Forage and Ore for IF2",
+  "UniqueID": "mouse.IF2FTM",
+  "MinimumApiVersion": "3.0",
+  "ContentPackFor": {
+    "UniqueID": "Esca.FarmTypeManager",
+    "MinimumVersion": "1.8"
+   },
+}

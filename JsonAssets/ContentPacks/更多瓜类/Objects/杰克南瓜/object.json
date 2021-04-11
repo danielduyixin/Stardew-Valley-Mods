@@ -1,9 +1,0 @@
-{
-  "Name": "杰克南瓜",
-  "Description": "一种非常大的南瓜!",
-  "Category": "Vegetable",
-  "Edibility": 25,
-  "Price": 100,
-  "IsColored": false,
-  "Recipe": null,
-}

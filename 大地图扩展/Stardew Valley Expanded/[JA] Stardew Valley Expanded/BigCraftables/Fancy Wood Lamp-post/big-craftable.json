@@ -1,0 +1,16 @@
+{
+  "Name": "Fancy Wood Lamp-post",
+  "Price": 4000,
+  "ProvidesLight": false,
+  "Description": "Provides a moderate amount of light.",
+  "ProvidesLight": true,
+  "CanPurchase": false,
+  "NameLocalization":
+  {
+        "zh": "精美的木制灯柱",
+  },
+  "DescriptionLocalization":
+  {
+        "zh": "提供一定的亮光。",
+  }
+}

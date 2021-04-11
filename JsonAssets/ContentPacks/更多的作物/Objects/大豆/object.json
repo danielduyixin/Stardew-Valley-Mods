@@ -1,9 +1,0 @@
-{
-  "Name": "大豆",
-  "Description": "坚果的味道。它的油可以在很多产品中使用。",
-  "Category": "Vegetable",
-  "Edibility": 8,
-  "Price": 80,
-  "IsColored": false,
-  "Recipe": null,
-}

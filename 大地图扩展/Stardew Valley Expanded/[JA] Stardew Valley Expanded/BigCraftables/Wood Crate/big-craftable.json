@@ -1,0 +1,16 @@
+{
+  "Name": "Wood Crate",
+  "Price": 750,
+  "ProvidesLight": false,
+  "Description": "A decorative piece for your farm.",
+  "ProvidesLight": false,
+  "CanPurchase": false,
+  "NameLocalization":
+  {
+        "zh": "木箱",
+  },
+  "DescriptionLocalization":
+  {
+        "zh": "装饰你的农场。",
+  }
+}

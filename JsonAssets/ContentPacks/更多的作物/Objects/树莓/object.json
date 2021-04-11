@@ -1,9 +1,0 @@
-{
-  "Name": "树莓",
-  "Description": "一种非常酸的浆果，表层有柔和的光泽。",
-  "Category": "Fruit",
-  "Edibility": 15,
-  "Price": 30,
-  "IsColored": false,
-  "Recipe": null,
-}

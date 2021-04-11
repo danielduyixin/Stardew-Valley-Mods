@@ -1,4 +1,4 @@
-{
+﻿{
     /*********
     ** Main translations
     *********/
@@ -11,7 +11,7 @@
     "tabs.skills": "Habilidades",
     "tabs.weather": "Clima",
     "tabs.relationships": "Relaciones",
-    "tabs.warp": "Puntos de Localizaciones",
+    "tabs.warp": "Puntos de Teletransporte",
     "tabs.time": "Tiempo",
     "tabs.advanced": "Opciones Avanzadas",
     "tabs.controls": "Controles",
@@ -24,10 +24,10 @@
     "player.title": "Jugador",
     "player.infinite-stamina": "Energía Infinita",
     "player.infinite-health": "Salud Infinita",
-    "player.instant-cooldowns": "Instant Weapon Cooldowns", // TODO
-    "player.inventory-size": "Inventory Size", // TODO
+    "player.instant-cooldowns": "Reutilización Instantánea de Armas",
+    "player.inventory-size": "Tamaño de Inventario",
     "player.movement-speed": "Velocidad de Movimiento",
-    "player.movement-speed.default": "normal", // TODO
+    "player.movement-speed.default": "normal",
     "player.one-hit-kill": "Matar de Un Golpe",
     "player.max-daily-luck": "Máxima Suerte Diaria",
 
@@ -38,10 +38,12 @@
     "tools.harvest-with-scythe": "Cosechar con Guadaña",
 
     // money
-    "money.title": "Dinero",
-    "money.add-amount": "Añadir {{amount}}g",
-    "casino-coins.title": "Monedas Del Casino",
-    "casino-coins.add-amount": "Añadir {{amount}}",
+    "add.money": "Dinero",
+    "add.casino-coins": "Monedas Del Casino",
+    "add.golden-walnuts": "Nueces De Oro",
+    "add.qi-gems": "Gemas Qi",
+    "add.amount-gold": "Añadir {{amount}}g",
+    "add.amount-other": "Añadir {{amount}}",
 
 
     /*********
@@ -49,7 +51,7 @@
     *********/
     // farm
     "farm.title": "Granja",
-    "farm.auto-water": "Auto-Water Crops", // TODO
+    "farm.auto-water": "Regar Cultivos Automáticamente",
     "farm.durable-fences": "Vallas Duraderas",
     "farm.instant-build": "Construcciones Instantáneas",
     "farm.always-auto-feed": "Siempre Auto Alimentar",
@@ -64,33 +66,9 @@
     "fishing.durable-tackles": "Aparejos Duraderos",
 
     // fast machines
-    "fast-machines.title": "Procesamiento Rápido de Las Máquinas",
-    "fast-machines.bee-house": "Colmena",
-    "fast-machines.cask": "Tonel",
-    "fast-machines.charcoal-kiln": "Horno de Carbón",
-    "fast-machines.cheese-press": "Prensa de Queso",
-    "fast-machines.crab-pot": "Trampa para cangrejos",
-    "fast-machines.crystalarium": "Cristalario",
+    "fast-machines.title": "Procesamiento Rápido de las Máquinas",
     "fast-machines.fruit-trees": "Árboles Frutales",
-    "fast-machines.furnace": "Horno",
-    "fast-machines.incubator": "Incubadora (lista por la mañana)", // TODO review (auto-translated)
-    "fast-machines.keg": "Barril",
-    "fast-machines.lightning-rod": "Pararrayos",
-    "fast-machines.loom": "Telar",
-    "fast-machines.mayonnaise-machine": "Mayonesera",
-    "fast-machines.mushroom-box": "Caja de Setas",
-    "fast-machines.oil-maker": "Aceitera",
-    "fast-machines.preserves-jar": "Envasadora",
-    "fast-machines.recycling-machine": "Máquina de Reciclaje",
-    "fast-machines.seed-maker": "Semilladora",
-    "fast-machines.slime-egg-press": "Presa de Babas",
-    "fast-machines.slime-incubator": "Incubadora de Babas",
-    "fast-machines.soda-machine": "Máquina de refrescos",
-    "fast-machines.statue-of-endless-fortune": "Estatua de la fortuna eterna",
-    "fast-machines.statue-of-perfection": "Estatua de la perfección",
-    "fast-machines.tapper": "Resinera",
-    "fast-machines.wood-chipper": "Astilladora de madera",
-    "fast-machines.worm-bin": "Vivero de Cebo",
+    "fast-machines.ready-in-the-morning": "{{machineName}} (lista por la mañana)",
 
 
     /*********
@@ -145,9 +123,9 @@
     "weather.title": "Tiempo Mañana",
     "weather.current": "Actual",
     "weather.sunny": "Soleado",
-    "weather.raining": "Lloviendo",
-    "weather.lightning": "Relámpago",
-    "weather.snowing": "Nevando",
+    "weather.raining": "Lluvioso",
+    "weather.lightning": "Tormentoso",
+    "weather.snowing": "Nevado",
 
 
     /*********
@@ -155,7 +133,7 @@
     *********/
     "relationships.title": "Relaciones",
     "relationships.give-gifts-anytime": "Dar regalos en cualquier momento",
-    "relationships.no-decay": "Ninguna Amistad Decaerá",
+    "relationships.no-decay": "Ninguna Amistad Disminuye",
     "relationships.friends": "Amigos",
 
 
@@ -163,7 +141,7 @@
     ** Warps tab
     *********/
     // main areas
-    "warp-section.main": "Main Areas", // TODO
+    "warp-section.main": "Áreas Principales",
     "warp.farm": "Granja",
     "warp.carpenter": "Carpintería",
     "warp.desert": "Desierto de Calico",
@@ -171,7 +149,7 @@
     "warp.pierre-shop": "Tienda Pierre's",
 
     // town
-    "warp-section.town": "Town", // TODO
+    "warp-section.town": "Pueblo",
     "warp.blacksmith": "Herrería",
     "warp.community-center": "Centro Cívico",
     "warp.jojamart": "MercaJoja",
@@ -181,14 +159,14 @@
     "warp.sewer": "Alcantarillas",
 
     // forest
-    "warp-section.forest": "Forest", // TODO
+    "warp-section.forest": "Bosque",
     "warp.hats": "Sombreros",
     "warp.ranch": "Rancho de Marnie",
     "warp.secret-woods": "Bosque Secreto",
     "warp.wizard-tower": "Torre del Mago",
 
     // mountain
-    "warp-section.mountain": "Mountain", // TODO
+    "warp-section.mountain": "Montaña",
     "warp.adventurers-guild": "Gremio de Aventureros",
     "warp.bathhouse": "Spa",
     "warp.quarry": "Cantera",
@@ -198,8 +176,16 @@
     "warp.tide-pools": "Pozas de marea",
     "warp.willy-shop": "Tienda de Pesca",
 
+    // island
+    "warp-section.island": "Isla Jengibre",
+    "warp.forge": "Forja",
+    "warp.island-farm": "Granja de la Isla",
+    "warp.dwarf-shop": "Tienda del Enano del Volcán",
+    "warp.field-office": "Oficina de Campo",
+    "warp.leo-house": "Casa de Leo",
+
     // desert
-    "warp-section.desert": "Desert", // TODO
+    "warp-section.desert": "Desierto",
     "warp.casino": "Casino",
     "warp.sandy-shop": "Tienda Sandy's",
     "warp.skull-cavern": "Caverna Calavera",
@@ -209,17 +195,17 @@
     ** Time tab
     *********/
     "time.title": "Tiempo",
-    "time.freeze-inside": "Congelar Tiempo Dentro",
-    "time.freeze-caves": "Congelar Tiempo en Cuevas",
-    "time.freeze-everywhere": "Congelar Tiempo en Todas Partes",
+    "time.freeze-inside": "Parar el Tiempo Dentro",
+    "time.freeze-caves": "Parar el Tiempo en Cuevas",
+    "time.freeze-everywhere": "Parar el Tiempo en Todas Partes",
     "time.time": "Tiempo",
-    "time.time-frozen-message": "Tiempo Congelado",
+    "time.time-frozen-message": "Tiempo Parado",
 
 
     /*********
     ** Advanced tab
     *********/
-    "flags.warning": "Utiliza esta sección bajo tu propio riesgo!\nEsto puede causar inconvenientes como que se salteen eventos, misiones o correspondencia.",
+    "flags.warning": "Utiliza esta sección bajo tu propio riesgo!\nEsto puede causar inconvenientes como que se omiten eventos, misiones o correo.",
     "flags.quests": "Completar Misiones",
     "flags.wallet": "Objetos del Monedero",
     "flags.unlocked": "Áreas Desbloqueadas",
@@ -236,12 +222,12 @@
     ** Controls tab
     *********/
     "controls.title": "Controles",
-    "controls.android-config-note": "You can change the on-screen buttons in the config files for the CJB Cheats Menu and Virtual Keyboard mods.", // TODO
-    "controls.open-menu": "Abrir Menu",
-    "controls.freeze-time": "Congelar Tiempo",
-    "controls.grow-tree": "Cultivar Árbol",
-    "controls.grow-crops": "Cultivar Cultivos",
-    "controls.grow-radius": "Grow distance around player", // TODO
-    "controls.reset-controls": "Reset", // TODO
+    "controls.android-config-note": "Puedes cambiar los botones en pantalla desde los archivos de configuración de los mods CJB Cheats Menu y Virtual Keyboard.",
+    "controls.open-menu": "Abrir Menú",
+    "controls.freeze-time": "Parar el Tiempo",
+    "controls.grow-tree": "Hacer Crecer Árboles",
+    "controls.grow-crops": "Hacer Crecer Cultivos",
+    "controls.grow-radius": "Distancia de crecimiento alrededor del jugador",
+    "controls.reset-controls": "Restablecer",
     "controls.press-new-key": "Presione Nueva Tecla..."
 }

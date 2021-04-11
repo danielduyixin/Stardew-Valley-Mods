@@ -1,9 +1,0 @@
-{
-  "Name": "金丝雀瓜",
-  "Description": "这个瓜有一种特别甜的味道。",
-  "Category": "Fruit",
-  "Edibility": 25,
-  "Price": 35,
-  "IsColored": false,
-  "Recipe": null,
-}

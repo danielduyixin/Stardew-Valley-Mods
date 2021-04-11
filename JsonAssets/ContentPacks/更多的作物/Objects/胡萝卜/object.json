@@ -1,9 +1,0 @@
-{
-  "Name": "胡萝卜",
-  "Description": "老故事里说吃胡萝卜有助于提高视力。",
-  "Category": "Vegetable",
-  "Edibility": 10,
-  "Price": 65,
-  "IsColored": false,
-  "Recipe": null,
-}

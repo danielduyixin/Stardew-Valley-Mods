@@ -1,0 +1,22 @@
+{
+	"Name": "Minnow",
+	"Description": "A small river fish.",
+	"Category": "Fish",
+	"Edibility": 1,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": null,
+	"Price": 20,
+	"IsColored": false,
+	"GiftTastes":
+	{
+		/*gift tastes go here*/
+	},
+	"NameLocalization":
+	{
+		"zh": "米诺鱼",
+	},
+	"DescriptionLocalization":
+	{
+		"zh": "生活在河里的小鱼。",
+	},
+}

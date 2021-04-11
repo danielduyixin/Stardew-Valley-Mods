@@ -1,0 +1,21 @@
+﻿{
+	"Music" : [
+	{
+		"Id": "MainTheme",
+		"File": "theme.ogg",
+		"Loop": false,
+		"Preload": true
+	},
+	{
+		"Id": "spring_day_ambient",
+		"File": "ambience.ogg",
+		"Ambient": true,
+		"Preload": true
+	},
+	{
+		"Id": "title_night",
+		"File": "select.ogg",
+		"Preload": true
+	}
+	]
+}

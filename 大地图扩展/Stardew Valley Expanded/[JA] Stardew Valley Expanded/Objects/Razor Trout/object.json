@@ -1,0 +1,26 @@
+{
+	"Name": "Razor Trout",
+	"Description": "An invasive species released by someone... It has a pattern along its body that heavily resembles the letter 'J'.",
+	"Category": "MonsterLoot",
+	"Edibility": -35,
+	"EdibleIsDrink": false,
+	"EdibleBuffs": null,
+	"Price": 400,
+	"IsColored": false,
+	"CanSell": false,
+	"CategoryTextOverride": "Fish",
+	"CategoryColorOverride": "0, 0, 155, 255",
+	"GiftTastes":
+	{
+		"Dislike": ["Kent", "Jodi", "Olivia", "Pierre", "Gus", "Evelyn", "Leah", "Robin", "Elliott", "Andy", "George", "Claire", "Shane", "Sebastian", "Abigail", "Haley", "Maru", "Pam", "Clint", "Jas", "Morgan", "Vincent", "Sophia"],
+	    "Hate": ["Willy"]
+	},
+   "NameLocalization":
+    {
+        "zh": "剃刀鳟鱼",   
+    },
+    "DescriptionLocalization":
+    {
+        "zh": "一种被人放生的入侵物种……它的身体上有一个图案很像字母J。",
+	},
+}

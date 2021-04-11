@@ -1,9 +1,0 @@
-{
-  "Name": "甜椒",
-  "Description": "这是秤上最粗的胡椒粉。放入你的大餐吧!",
-  "Category": "Vegetable",
-  "Edibility": 8,
-  "Price": 70,
-  "IsColored": false,
-  "Recipe": null,
-}

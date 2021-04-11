@@ -1,0 +1,18 @@
+{
+	"Name": "Joja Berry",
+	"Price": 650,
+	"Description": "A magically modified organism (MMO). The taste is astonishing, fetching a high price. ",
+	"Category": "Fruit",
+	"Edibility": 75,
+	"Recipe": null,
+	"CanSell": false,
+	"PurchaseRequirements": [ "e 5553210" ],
+    "NameLocalization":
+    {
+        "zh": "乔家浆果",
+    },
+    "DescriptionLocalization":
+    {
+        "zh": "魔法改良的浆果（MMO）。味道令人惊讶，价格也很高。",
+		},
+}

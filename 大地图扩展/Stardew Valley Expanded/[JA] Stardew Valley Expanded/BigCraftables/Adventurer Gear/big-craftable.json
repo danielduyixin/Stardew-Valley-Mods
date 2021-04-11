@@ -1,0 +1,16 @@
+{
+  "Name": "Adventurer Gear",
+  "Price": 2500,
+  "ProvidesLight": false,
+  "Description": "Two pairs of boots and a small dagger.",
+  "ProvidesLight": false,
+  "CanPurchase": false,
+  "NameLocalization":
+  {
+        "zh": "冒险家装备",
+  },
+  "DescriptionLocalization":
+  {
+        "zh": "两双靴子和一把小匕首。",
+  }
+}

@@ -1,0 +1,11 @@
+﻿{
+  "Name": "Custom Music Template",
+  "Author": "Platonymous",
+  "Version": "1.0.3",
+  "Description": "Template for Custom Music",
+  "UniqueID": "Platonymous.CustomMusic.Template",
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.CustomMusic",
+    "MinimumVersion": "1.0.3"
+  }
+}

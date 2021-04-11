@@ -1,9 +1,0 @@
-{
-  "Name": "芹菜",
-  "Description": "清脆爽口，它本身没有什么内在的味道。",
-  "Category": "Vegetable",
-  "Edibility": 8,
-  "Price": 70,
-  "IsColored": false,
-  "Recipe": null,
-}

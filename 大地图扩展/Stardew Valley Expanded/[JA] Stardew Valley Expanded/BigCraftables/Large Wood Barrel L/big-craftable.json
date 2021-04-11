@@ -1,0 +1,16 @@
+{
+  "Name": "Large Wood Barrel L",
+  "Price": 1000,
+  "ProvidesLight": false,
+  "Description": "A decorative piece for your farm. It's cut precisely down the middle.",
+  "ProvidesLight": false,
+  "CanPurchase": false,
+  "NameLocalization":
+  {
+        "zh": "大木桶的左半边",
+  },
+  "DescriptionLocalization":
+  {
+        "zh": "装饰你的农场。被切成了两半的大木桶的其中一半。",
+  }
+}

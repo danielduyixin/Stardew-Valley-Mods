@@ -1,9 +1,0 @@
-{
-  "Name": "大西瓜",
-  "Description": "也许是最普遍和流行的西瓜吧!",
-  "Category": "Fruit",
-  "Edibility": 25,
-  "Price": 130,
-  "IsColored": false,
-  "Recipe": null,
-}
